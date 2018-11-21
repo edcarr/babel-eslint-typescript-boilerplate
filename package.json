@@ -1,0 +1,32 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node index.ts --extensions '.ts'",
+        "watch": "nodemon -e ts --exec npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zzish/core.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zzish/core/issues"
+    },
+    "homepage": "https://github.com/zzish/core#readme",
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+        "@babel/preset-typescript": "^7.1.0",
+        "typescript": "^3.1.6"
+    },
+    "dependencies": {
+        "@babel/core": "^7.1.6",
+        "@babel/node": "^7.0.0",
+        "@babel/preset-env": "^7.1.6",
+        "@types/node": "^10.12.9"
+    }
+}
