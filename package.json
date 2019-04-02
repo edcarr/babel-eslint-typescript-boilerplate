@@ -1,5 +1,5 @@
 {
-    "name": "core",
+    "name": "node-babel-eslint-typescript-boilerplate",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zzish/core.git"
+        "url": "git+https://github.com/edcarr/node-babel-eslint-typescript-boilerplate.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/zzish/core/issues"
+        "url": "https://github.com/edcarr/node-babel-eslint-typescript-boilerplate/issues"
     },
-    "homepage": "https://github.com/zzish/core#readme",
+    "homepage": "https://github.com/edcarr/node-babel-eslint-typescript-boilerplate#readme",
     "devDependencies": {
         "@babel/plugin-proposal-class-properties": "^7.1.0",
         "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
